@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="errBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066ff" />
+      <stop offset="100%" stop-color="#0052cc" />
+    </linearGradient>
+    <linearGradient id="errTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4b2" />
+      <stop offset="100%" stop-color="#00b395" />
+    </linearGradient>
+    <filter id="errShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0066ff" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Background grid elements -->
+  <g opacity="0.2">
+    <path d="M 50,50 L 550,50 M 50,150 L 550,150 M 50,250 L 550,250 M 50,350 L 550,350" stroke="#cbd5e1" stroke-width="1" />
+    <path d="M 100,50 L 100,400 M 200,50 L 200,400 M 300,50 L 300,400 M 400,50 L 400,400 M 500,50 L 500,400" stroke="#cbd5e1" stroke-width="1" />
+  </g>
+
+  <!-- Large 404 Text -->
+  <g filter="url(#errShadow)">
+    <text x="300" y="240" font-family="sans-serif" font-weight="900" font-size="140" fill="url(#errBlue)" text-anchor="middle" letter-spacing="-5">404</text>
+  </g>
+
+  <!-- Overlapping Wave shapes -->
+  <path d="M 100,320 C 200,240 250,240 350,320 C 450,400 500,400 600,320" fill="none" stroke="url(#errTeal)" stroke-width="8" stroke-linecap="round" opacity="0.6" />
+  <path d="M 0,350 C 100,280 180,280 280,350 C 380,420 420,420 520,350" fill="none" stroke="url(#errBlue)" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Floating Question Mark Circle -->
+  <g filter="url(#errShadow)" transform="translate(140, 70)">
+    <circle cx="30" cy="30" r="30" fill="url(#errTeal)" />
+    <text x="30" y="42" font-family="sans-serif" font-weight="bold" font-size="36" fill="#ffffff" text-anchor="middle">?</text>
+  </g>
+
+  <!-- Floating Broken Code Tag -->
+  <g filter="url(#errShadow)" transform="translate(420, 240)">
+    <circle cx="25" cy="25" r="25" fill="url(#errBlue)" />
+    <path d="M 17,19 L 10,25 L 17,31 M 33,19 L 40,25 L 33,31" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="commerceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+  <!-- App Icon Rounded Squircle -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#commerceGrad)" />
+  
+  <!-- Shopping Bag/Basket Silhouette -->
+  <path d="M 44,48 L 44,42 C 44,31 52.8,24 64,24 C 75.2,24 84,31 84,42 L 84,48" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  <rect x="32" y="46" width="64" height="48" rx="8" fill="#ffffff" />
+  
+  <!-- Handle check or smiley logo -->
+  <path d="M 52,62 C 56,66 72,66 76,62" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" />
+</svg>

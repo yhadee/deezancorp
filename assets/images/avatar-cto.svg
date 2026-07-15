@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ctoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0066ff" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="54" fill="url(#ctoGrad)" />
+  
+  <!-- Male Avatar Shape -->
+  <g transform="translate(10, 10)">
+    <!-- Shoulders / Clothes -->
+    <path d="M 16,84 C 16,72 32,64 50,64 C 68,64 84,72 84,84" fill="#ffffff" opacity="0.9" />
+    <path d="M 42,66 L 50,78 L 58,66 Z" fill="#0066ff" />
+    <!-- Neck -->
+    <rect x="44" y="50" width="12" height="16" fill="#e8c39e" />
+    <!-- Head / Face -->
+    <circle cx="50" cy="38" r="18" fill="#e8c39e" />
+    <!-- Hair & Beard (Short trim professional) -->
+    <path d="M 32,32 C 32,22 40,16 50,16 C 60,16 68,22 68,32 C 68,24 64,20 50,20 C 36,20 32,24 32,32 Z" fill="#334155" />
+    <path d="M 35,42 C 35,52 42,56 50,56 C 58,56 65,52 65,42 L 61,42 C 61,48 56,50 50,50 C 44,50 39,48 39,42 Z" fill="#334155" />
+  </g>
+</svg>
