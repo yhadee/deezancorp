@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Our Portfolio | Deezan Corp</title>
+  <meta name="description" content="Explore Deezan Corp's portfolio of outsourced office systems, custom corporate web portals, database migrations, and workflow automations.">
+  <meta name="keywords" content="outsourced projects, web portals portfolio, corporate case studies, custom CRM systems, office automation portfolio, Deezan Corp">
+  <meta name="author" content="Deezan Corp">
+  <link rel="canonical" href="https://deezancorp.com/portfolio.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://deezancorp.com/portfolio.html">
+  <meta property="og:title" content="Our Portfolio | Deezan Corp">
+  <meta property="og:description" content="Portfolio of outsourced office systems, custom corporate portals, and workflow automations developed by Deezan Corp.">
+  <meta property="og:image" content="./assets/images/logo.svg">
+  <meta property="og:site_name" content="Deezan Corp">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://deezancorp.com/portfolio.html">
+  <meta name="twitter:title" content="Our Portfolio | Deezan Corp">
+  <meta name="twitter:description" content="Portfolio of outsourced office systems, custom corporate portals, and workflow automations developed by Deezan Corp.">
+  <meta name="twitter:image" content="./assets/images/logo.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg">
+  <link rel="alternate icon" type="image/png" href="./assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- Fonts & Icon Libraries -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom" href="./index.html">
+        <svg viewBox="0 0 512 512" width="32" height="32">
+          <circle cx="160" cy="256" r="48" fill="#0066ff" />
+          <path d="M 160 256 C 240 120, 272 120, 352 256 C 432 392, 400 392, 480 256" fill="none" stroke="#00d4b2" stroke-width="36" stroke-linecap="round" />
+          <path d="M 32 256 C 112 120, 144 120, 224 256 C 304 392, 272 392, 352 256" fill="none" stroke="#0066ff" stroke-width="40" stroke-linecap="round" />
+          <circle cx="352" cy="256" r="52" fill="#00d4b2" />
+          <circle cx="352" cy="256" r="24" fill="#ffffff" />
+        </svg>
+        <span>Deezan Corp</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./portfolio.html">Applications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn-primary-custom" href="./contact.html">
+              <span>Get Started</span>
+              <i class="bi bi-arrow-right-short"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Page Intro -->
+  <section class="section-padding bg-gradient-blue border-bottom">
+    <div class="container text-center py-4">
+      <span class="section-tag">Showcase</span>
+      <h1 class="display-4 font-weight-extrabold mb-3">Our Project Portfolio</h1>
+      <p class="text-muted mx-auto" style="max-width: 650px;">A collection of outsourced web portals, database systems, office automations, and custom mobile apps delivered for our corporate clients.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid & Filter Section -->
+  <section class="section-padding">
+    <div class="container">
+      
+      <!-- Filters (Category Switching handled in main.js) -->
+      <div class="portfolio-filters animate-on-scroll">
+        <button class="portfolio-btn active" data-filter="all">All Solutions</button>
+        <button class="portfolio-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="portfolio-btn" data-filter="web">Web Portals</button>
+        <button class="portfolio-btn" data-filter="enterprise">Enterprise</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="row g-4 justify-content-center">
+        
+        <!-- App 1: PulseFit -->
+        <div class="col-sm-6 col-lg-4 animate-on-scroll">
+          <div class="portfolio-card portfolio-item">
+            <div class="portfolio-item-wrapper" data-category="mobile">
+              <div class="portfolio-img-wrapper p-5">
+                <img loading="lazy" src="./assets/images/app-health.svg" alt="PulseFit mobile app icon showcasing wellness analytics" style="max-width: 130px; height: auto;">
+                <span class="portfolio-badge">Health & Fitness</span>
+              </div>
+              <div class="portfolio-content">
+                <h4 class="h5">PulseFit Tracker</h4>
+                <p class="text-muted">A native, policy-compliant Android application featuring biometric integration, offline database management, and interactive analytics to monitor caloric trends and cardiac data.</p>
+                <div class="portfolio-tech-tags">
+                  <span class="tech-tag">Kotlin</span>
+                  <span class="tech-tag">Jetpack Compose</span>
+                  <span class="tech-tag">SQLite</span>
+                </div>
+                <div class="mt-4">
+                  <!-- Play Store Button Placeholder -->
+                  <a href="#" class="play-store-btn" onclick="event.preventDefault(); alert('Google Play Store verification placeholder');">
+                    <i class="bi bi-play-btn-fill"></i>
+                    <div class="text-start">
+                      <div style="font-size: 0.65rem; font-weight: normal; text-transform: uppercase;">Get it on</div>
+                      <div style="font-size: 0.85rem; font-weight: 700; line-height: 1;">Google Play</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App 2: Apex Wallet -->
+        <div class="col-sm-6 col-lg-4 animate-on-scroll">
+          <div class="portfolio-card portfolio-item">
+            <div class="portfolio-item-wrapper" data-category="mobile">
+              <div class="portfolio-img-wrapper p-5" style="background-color: var(--primary-ultra-light);">
+                <img loading="lazy" src="./assets/images/app-finance.svg" alt="Apex Wallet credit card and financial nodes visual" style="max-width: 130px; height: auto;">
+                <span class="portfolio-badge">FinTech</span>
+              </div>
+              <div class="portfolio-content">
+                <h4 class="h5">Apex Wallet</h4>
+                <p class="text-muted">A premium, secure iOS wallet interface connecting directly to distributed banking APIs. Engineered with end-to-end payload encryption and immediate biometric authentication.</p>
+                <div class="portfolio-tech-tags">
+                  <span class="tech-tag">Swift</span>
+                  <span class="tech-tag">SwiftUI</span>
+                  <span class="tech-tag">RESTful API</span>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="play-store-btn" onclick="event.preventDefault(); alert('Google Play Store verification placeholder (App Store alternative)');">
+                    <i class="bi bi-apple"></i>
+                    <div class="text-start">
+                      <div style="font-size: 0.65rem; font-weight: normal; text-transform: uppercase;">Download on</div>
+                      <div style="font-size: 0.85rem; font-weight: 700; line-height: 1;">App Store</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App 3: ShopZen -->
+        <div class="col-sm-6 col-lg-4 animate-on-scroll">
+          <div class="portfolio-card portfolio-item">
+            <div class="portfolio-item-wrapper" data-category="web">
+              <div class="portfolio-img-wrapper p-5" style="background-color: #f3e8ff;">
+                <img loading="lazy" src="./assets/images/app-commerce.svg" alt="ShopZen e-commerce shopping bag outline" style="max-width: 130px; height: auto;">
+                <span class="portfolio-badge">E-Commerce</span>
+              </div>
+              <div class="portfolio-content">
+                <h4 class="h5">ShopZen Cloud</h4>
+                <p class="text-muted">A responsive, accessible e-commerce platform handling high product listings and multi-vendor scaling. Integrated with secure payment gateways and instant email invoicing.</p>
+                <div class="portfolio-tech-tags">
+                  <span class="tech-tag">React.js</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">GraphQL</span>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="btn-secondary-custom" style="padding: 0.45rem 1rem; font-size: 0.85rem;" onclick="event.preventDefault(); alert('Demo website link placeholder');">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                    <span>Live Web Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App 4: EduSphere -->
+        <div class="col-sm-6 col-lg-4 animate-on-scroll">
+          <div class="portfolio-card portfolio-item">
+            <div class="portfolio-item-wrapper" data-category="enterprise">
+              <div class="portfolio-img-wrapper p-5" style="background-color: #ffedd5;">
+                <img loading="lazy" src="./assets/images/app-edu.svg" alt="EduSphere graduation cap icon representing cloud classroom" style="max-width: 130px; height: auto;">
+                <span class="portfolio-badge">EdTech</span>
+              </div>
+              <div class="portfolio-content">
+                <h4 class="h5">EduSphere Portal</h4>
+                <p class="text-muted">An interactive classroom suite deployed cross-platform. Connects students with virtual curricula, real-time video lectures, and automatically generated analytics dashboards.</p>
+                <div class="portfolio-tech-tags">
+                  <span class="tech-tag">React Native</span>
+                  <span class="tech-tag">AWS DynamoDB</span>
+                  <span class="tech-tag">WebRTC</span>
+                </div>
+                <div class="mt-4">
+                  <!-- Play Store Button Placeholder -->
+                  <a href="#" class="play-store-btn" onclick="event.preventDefault(); alert('Google Play Store verification placeholder');">
+                    <i class="bi bi-play-btn-fill"></i>
+                    <div class="text-start">
+                      <div style="font-size: 0.65rem; font-weight: normal; text-transform: uppercase;">Get it on</div>
+                      <div style="font-size: 0.85rem; font-weight: 700; line-height: 1;">Google Play</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Staging / Compliance note -->
+  <section class="section-padding bg-gradient-blue border-top border-bottom">
+    <div class="container text-center">
+      <div class="row justify-content-center animate-on-scroll">
+        <div class="col-lg-8">
+          <i class="bi bi-shield-lock-fill text-gradient fs-1 mb-3 d-inline-block"></i>
+          <h3>Google Play Developer Compliance Standards</h3>
+          <p class="text-muted">All applications listed in our portfolio are engineered in full alignment with the Google Play Developer Program Policies. This includes strict adherence to data safety directives, secure user authorization models, clear access permissions, and prompt legal policy provision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Col 1 -->
+        <div class="col-lg-4 col-md-6">
+          <a class="navbar-brand-custom text-white mb-3" href="./index.html" style="color:#fff !important;">
+            <svg viewBox="0 0 512 512" width="32" height="32" style="filter: brightness(1.2);">
+              <circle cx="160" cy="256" r="48" fill="#0066ff" />
+              <path d="M 160 256 C 240 120, 272 120, 352 256 C 432 392, 400 392, 480 256" fill="none" stroke="#00d4b2" stroke-width="36" stroke-linecap="round" />
+              <path d="M 32 256 C 112 120, 144 120, 224 256 C 304 392, 272 392, 352 256" fill="none" stroke="#0066ff" stroke-width="40" stroke-linecap="round" />
+              <circle cx="352" cy="256" r="52" fill="#00d4b2" />
+              <circle cx="352" cy="256" r="24" fill="#ffffff" />
+            </svg>
+            <span class="text-white">Deezan Corp</span>
+          </a>
+          <p class="text-light mt-3">Trusted office & IT project outsourcing partner. We manage operational digitization and dedicate technical teams for business success.</p>
+          <div class="social-links mt-3">
+            <a href="https://github.com/deezancorp" target="_blank" rel="noopener" class="social-link-btn" aria-label="GitHub Page"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/company/deezancorp" target="_blank" rel="noopener" class="social-link-btn" aria-label="LinkedIn Page"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/deezancorp" target="_blank" rel="noopener" class="social-link-btn" aria-label="Twitter Account"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <!-- Col 2 -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Company</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./portfolio.html">Applications</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Col 3 -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-title">Outsourcing Services</h4>
+          <ul class="footer-links">
+            <li><a href="./services.html">Office Automation</a></li>
+            <li><a href="./services.html">Dedicated Tech Teams</a></li>
+            <li><a href="./services.html">Web & Business Portals</a></li>
+            <li><a href="./services.html">Cloud Operations</a></li>
+            <li><a href="./services.html">IT & Administrative Support</a></li>
+          </ul>
+        </div>
+        <!-- Col 4 -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-title">Corporate Office</h4>
+          <p class="text-light mb-2"><i class="bi bi-geo-alt-fill text-gradient me-2"></i> Jakarta, Indonesia</p>
+          <p class="text-light mb-2"><i class="bi bi-envelope-fill text-gradient me-2"></i> yhadee@gmail.com</p>
+          <p class="text-light"><i class="bi bi-telephone-fill text-gradient me-2"></i> +62 877-6078-5461</p>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="row footer-bottom">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <span>&copy; 2026 Deezan Corp. All rights reserved.</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="./privacy-policy.html" class="me-3">Privacy Policy</a>
+          <a href="./terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="back-to-top" aria-label="Scroll to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- JS Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

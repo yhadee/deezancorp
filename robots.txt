@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://deezancorp.com
+
+# Sitemaps
+Sitemap: https://deezancorp.com/sitemap.xml
